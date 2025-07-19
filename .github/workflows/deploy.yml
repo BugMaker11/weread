@@ -47,7 +47,7 @@ jobs:
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         READ_NUM: ${{ vars.READ_NUM }}
 
-      uses: nick-invision/action-retry@v3
+      uses: nick-fields/retry@v3
       with:
         timeout_minutes: 10 
         
